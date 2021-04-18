@@ -1,7 +1,7 @@
 #include<stdio.h>
 void fun()
 {
-     int i=10;
+    static int i=10;
     printf("%d\n",i);
     i++;
     printf("%d\n",i);
