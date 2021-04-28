@@ -1,6 +1,5 @@
  /*Write a program having following menu options and corresponding actions. 
-1.	Area of Square           2  Area of Rectangle      3. Area of Triangle
-*/
+1.	Area of Square           2  Area of Rectangle      3. Area of Triangle*/
 #include <stdio.h> 
 int main () 
 { 

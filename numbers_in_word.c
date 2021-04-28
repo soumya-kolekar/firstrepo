@@ -11,6 +11,7 @@ int main()
 printf("Enter number=");
 scanf("%d",&n);
  digit=(int)log10(n);
+printf("Output :");
 
 while(n!=0)
 {
@@ -60,6 +61,7 @@ digit=rem%10;
 	 break;
 	
 }
+
 rem/=10;
 }
 
