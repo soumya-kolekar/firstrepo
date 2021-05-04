@@ -7,11 +7,11 @@ int sum(int);
 int main()
 {
     int n;
-    printf("enter the n natural number\n");
+    printf("enter the number\n");
     scanf("%d",&n);
     int a=sum(n);
     
-    printf("sum of all numbers is%d",a);
+    printf("sum of all digits is%d",a);
 
 }
 int sum(int n)
