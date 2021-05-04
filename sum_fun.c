@@ -16,8 +16,13 @@ int main()
 }
 int sum(int n)
 { 
-   int s=0,i;
-    for(i=0;i<=n;i++)
-    {s=s+i;}
-   return s;
+  int i;
+    int s=0;
+   if(n==0)
+   return 0;
+   else{
+   i=(n%10 + sum(n/10));
+   return i;
+   }
+   
 }
