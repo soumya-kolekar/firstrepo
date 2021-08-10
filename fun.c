@@ -2,11 +2,12 @@
 as parameter and returns 1 if it is an
 alphabet, 2 if it is a digit and 3 is it
 is a special symbol. In main, accept 
-characters till the user enters EOF and use 
+characters till the user enters EOf and use 
 the function to count the total number of 
 alphabets,digits and special symbols entered.*/
 #include <stdio.h>
 #include <string.h>
+
 void stringcount(char *s)
 {
  int i,alphabets=0,digits=0,specialcharacters=0;
